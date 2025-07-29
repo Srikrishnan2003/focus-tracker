@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Focus Task Tracker
+
+A minimalist task management application built with Next.js and Tailwind CSS, designed to help you concentrate on one task at a time using an integrated Pomodoro timer.
+
+## Features
+
+-   **Add & Manage Tasks**: Quickly add tasks to your list.
+-   **Focus Mode**: Select any task to start a dedicated Pomodoro timer.
+-   **Integrated Pomodoro Timer**: A built-in timer to track your focus sessions.
+-   **Timer Controls**: Pause, resume, and stop the timer as needed.
+-   **Task Completion**: Tasks are automatically marked as complete when the timer finishes.
+-   **Clean & Responsive UI**: A modern interface built with shadcn/ui.
+
+## Tech Stack
+
+-   **Framework**: [Next.js](https://nextjs.org/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+You need to have Node.js and npm (or yarn/pnpm/bun) installed on your machine.
+
+### Installation
+
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/srikrishnan2003/focus-tracker.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd focus-tracker
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+
+### Running the Application
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Add a Task**: Type your task into the input field and click the "Add" button.
+2.  **Start Focusing**: Click the "Focus" button next to a task to begin a Pomodoro session.
+3.  **Manage the Timer**: The Pomodoro timer will appear. You can use the "Pause" and "Resume" buttons to control your session.
+4.  **Unfocus**: To stop the timer for a task and choose another, click the "Unfocus" button.
+5.  **Delete a Task**: Click the "Delete" button to remove a task from your list at any time.
